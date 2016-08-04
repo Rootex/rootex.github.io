@@ -69,7 +69,7 @@ donate:
 
 # google analytics
 ga:
-  id: UA-71640963-1
+  id: UA-71640963-2
 
 # blog img path
 img_path: '/static/img/blog'
