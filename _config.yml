@@ -55,8 +55,8 @@ index:
   life: 'Life'
 
 # donate
-donate:
-  alipay: 'static/img/pay/alipay.png'
+#donate:
+ # alipay: 'static/img/pay/alipay.png'
 
 # comment
 #changyan:
