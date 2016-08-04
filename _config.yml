@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Hackers Mind"
+title: "Plaix"
 description: "The window to my mind."
 keywords: "blog,Jekyll,github,gh-pages,hackers,plaix,sotaya"
 
@@ -12,8 +12,8 @@ url: "rootex.github.io"
 # author
 author:
   name: 'Plaix'
-  first_name: 'Sotaya'
-  last_name: 'Yakubu'
+  first_name: 'Yakubu'
+  last_name: 'Sotaya'
   email: 'sotayamy@gmail.com'
   facebook_username: 'Plaque'
   github_username: 'Rootex'
