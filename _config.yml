@@ -41,7 +41,7 @@ landing:
 project:
   eyedroid:
     name: 'Eye Droid'
-    url: '/rootex/eye-droid'
+    url: '/Rootex/eye-droid'
     img: 'static/img/landing/eyedroid.png'
   
 # blog index
