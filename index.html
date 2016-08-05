@@ -28,7 +28,7 @@ permalink: /
                             <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
                         <li>
-                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/Germany.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                            <a class="btn btn-sm set_de"><img src="{{"static/img/flags/Germany.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
 
                     </ul>
@@ -137,7 +137,7 @@ permalink: /
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
                 <p><span data-i18n="aboutme.des">
-                    I am a Software Engineer with main focus on AI, Web Technologies, Shell scripting and Python language. I love to travel, make new friends and the realization and implementation of crazy ideas. I regard myself as a Hacker and a Maker, because building stuffs is just what i am good at.
+                    I am a Software Engineer with main focus on AI, Web Technologies, Shell scripting and Python language. I love to travel, make new friends and the realization and implementation of crazy ideas. I regard myself as a Hacker and a Maker, because building stuff is just what i am good at.
                 </span></p>
             </div>
         </div>
@@ -322,6 +322,34 @@ permalink: /
                             data-icon="octicon-fork"
                             data-count-href="{{ site.project.eyedroid.url | append: '/forks' }}"
                             data-count-api="{{ site.project.eyedroid.url | prepend: '/repos' | append: '#forks_count' }}"
+                            data-count-aria-label="# forks on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+       
+	
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.project.aurgent.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><span class="navy">{{ site.project.aurgent.name }}</span></h4>
+                    <p><span data-i18n="projects.aurgent">An intelligent, selfaware robot with the capability of autonomous navigation, environment mapping and realtime feedspeedback(atleast a goal as of now).</span></p>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="github-button" href="{{ site.project.aurgent.url | prepend: 'https://github.com'}}"
+                            data-icon="octicon-star"
+                            data-count-href="{{ site.project.aurgent.url | append: '/stargazers' }}"
+                            data-count-api="{{ site.project.aurgent.url | prepend: '/repos' | append: '#stargazers_count' }}"
+                            data-count-aria-label="# stargazers on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="{{ site.project.aurgent.url | prepend: 'https://github.com'}}"
+                            data-icon="octicon-fork"
+                            data-count-href="{{ site.project.aurgent.url | append: '/forks' }}"
+                            data-count-api="{{ site.project.aurgent.url | prepend: '/repos' | append: '#forks_count' }}"
                             data-count-aria-label="# forks on GitHub"
                             aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
                         </li>
