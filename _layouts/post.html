@@ -1,6 +1,6 @@
 ---
 layout: default
-comment: true
+comments: true
 ---
  
 <div class="wrapper wrapper-content  animated fadeInRight article">
@@ -57,7 +57,7 @@ comment: true
                             {% endif %}
                             <br>
                             <!-- comment -->
-			    {% if site.comment%}
+			    {% if page.comments %}
                                 {% include disqus.html %}
 			    {% endif %}
                         </div>
