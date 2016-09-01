@@ -47,6 +47,10 @@ project:
     name: 'AuRGent'
     url: '/Rootex/AuRGent'
     img: 'static/img/landing/aurgent.png'
+  igor:
+    name: 'IGOR'
+    url: '/Rootex/IGOR'
+    img: 'static/img/landing/igor.png'
     
 # blog index
 index:
